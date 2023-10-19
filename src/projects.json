@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Projeto Coca-Cola",
+      "image": "./src/img/coca.png",
+      "tags": ["html", "css", "javaScript"],
+      "link": "#"
+    },
+      {
+        "name": "Projeto Fifa",
+        "image": "./src/img/fifa.png",
+        "tags": ["html", "css", "javaScript"],
+        "link": "#"
+    },
+      {
+        "name": "Projeto Guardiões da Galáxia",
+        "image": "./src/img/guardioes.png",
+        "tags": ["html", "css", "javaScript"],
+        "link": "#"
+    },
+
+    {
+        "name": "Projeto Iphone",
+        "image": "./src/img/iphone.png",
+        "tags": ["html", "css", "javaScript"],
+        "link": "#"
+    },
+
+    {
+        "name": "Projeto mario",
+        "image": "./src/img/mario.png",
+        "tags": ["html", "css", "javaScript"],
+        "link": "#"
+    },
+
+    {
+        "name": "Projeto One Piece",
+        "image": "./src/img/onepiece.png",
+        "tags": ["html", "css", "javaScript"],
+        "link": "#"
+    },
+
+    {
+        "name": "Projeto portifolio",
+        "image": "./src/img/portifolio.png",
+        "tags": ["html", "css", "javaScript"],
+        "link": "#"
+    }
+  ]
