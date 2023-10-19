@@ -30,11 +30,17 @@ const createTags = (projectTags) =>{
         return elemTags
 }
 
-const CreateProject = (project) =>{
+const CreateProject = (project, index) =>{
     const elemProject = document.createElement('a')
 
         elemProject.setAttribute('href', project.link)
         elemProject.setAttribute('target','_blank')
+
+        elemProject.setAttribute('data-aos','zoom-in-up')
+        elemProject.setAttribute('data-aos-duration','800')
+        elemProject.setAttribute('data-aos-easing','ease-in-out')
+        elemProject.setAttribute('data-aos-offset','-100')
+        elemProject.setAttribute('data-aos-delay', 300 * (index + 1))
         
         elemProject.classList.add('project')
 
@@ -51,8 +57,8 @@ const CreateProject = (project) =>{
 }
 
 const loadProjects = (projects) => {
-    projects.forEach(project => {
-        elemProjects.appendChild(CreateProject(project))
+    projects.forEach((project, index) => {
+        elemProjects.appendChild(CreateProject(project, index))
     });
 }
 
