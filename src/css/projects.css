@@ -80,3 +80,26 @@
 .project:hover picture img{
     transform: scale(1.1);
 }
+
+@media (max-width: 1080px) {
+    .projects{
+        padding: 24px;
+    }
+
+    #project_content{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media (max-width: 768px) {
+    #project_content{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .project picture{
+        height: 180px;
+    }
+}
